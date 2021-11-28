@@ -15,10 +15,10 @@ function App() {
         <Nav variant="tabs" className="tab-text">
           {/* todo: Nav defaultactivekey? */}
           <Nav.Item>
-            <Nav.Link eventKey="1"><Link to="/logsession">LOG SESSION</Link></Nav.Link>
+            <Nav.Link eventKey="1" as={Link} to="/logsession">LOG SESSION</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="2"><Link to="/history">HISTORY</Link></Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to="/history">HISTORY</Nav.Link>
           </Nav.Item>
         </Nav>
       
