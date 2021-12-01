@@ -4,7 +4,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -23,7 +23,7 @@ align-items: center;
 justify-content: center;
 font-size: calc(22px + 4vmin);
 letter-spacing:4px;
-padding:15px;
+padding:10px;
 /* border-bottom: 2px solid #282c34; */
 }
 
@@ -52,4 +52,48 @@ div.nav-item a {
   to {
     transform: rotate(360deg);
   }
+}
+
+.maincontent {
+  display: flex;
+  background-color: #282c34;
+  padding:20px;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+}
+
+.template-form-wrapper {
+  padding:25px;
+  min-width:300px;
+  max-width:600px;
+  color: #282c34;
+}
+
+.template-form {
+  background-color:white;
+  display:block;
+  padding:10px;
+  border-radius:.3em;
+}
+
+.template-options-wrapper {
+  width:50%;
+  min-width:300px;
+  max-width:600px;
+}
+
+.template-options-wrapper a {
+  color: white;
+  text-decoration: none;
+}
+
+.template-options-wrapper button {
+  margin:5px;
+}
+
+.defaultwrapper {
+  color: white;
 }

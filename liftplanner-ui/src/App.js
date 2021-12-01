@@ -15,7 +15,6 @@ export default function App() {
           <img src={logo} className="logo-wrapper" alt="Logo of a woman weightlifting"/>
         
           <Nav variant="tabs" className="tab-text">
-            {/* todo: Nav defaultactivekey? */}
             <Nav.Item>
               <Nav.Link eventKey="1" as={Link} to="/log">LOG SESSION</Nav.Link>
             </Nav.Item>
@@ -25,13 +24,10 @@ export default function App() {
           </Nav>
         
         </header>
-
+        <main className="maincontent">
         <Outlet />
+        </main>
     </div>
-
-   
-
-
   );
   
 }

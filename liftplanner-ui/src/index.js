@@ -16,16 +16,19 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="history" element={<History />} />
+
           <Route path="log" element={<LogTemplates />}>
             <Route
               index
-              element={             
-                  <p>Select a template</p>              
+              element={       
+                  <div className="defaultwrapper">      
+                    <p>Select a template</p>    
+                  </div>          
               }
             />
-            <Route path=":templateName" element={<LogTemplate />} />
-            {/* todo: possibly pass entry id via a property instead of a URL param */}
+            <Route path=":id" element={<LogTemplate />} />
           </Route>
+          
           <Route
             path="*"
             element={              

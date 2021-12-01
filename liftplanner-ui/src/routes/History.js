@@ -1,7 +1,8 @@
 export default function LogSession() {
   return (
-    <main style={{ padding: "1rem 0" }}>
+    <div className="defaultwrapper">
       <h2>History</h2>
-    </main>
+      <h3>TBD</h3>
+    </div>
   );
 }
